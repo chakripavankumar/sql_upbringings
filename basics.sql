@@ -480,4 +480,6 @@ SELECT dept_id , SUM(salary) as total_salary FROM employees GROUP BY dept_id HAV
 
 
     -- Find the average salary and employee count department-wise.
- SELECT dept_id , AVG(salary) AS average_salary , COUNT (*) AS employee_count FROM employees GROUP BY dept_id;    
+ SELECT dept_id , AVG(salary) AS average_salary , COUNT (*) AS employee_count FROM employees GROUP BY dept_id; 
+ 
+    
